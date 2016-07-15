@@ -205,32 +205,8 @@ $(document).ready(function() {
 		
 		$(location).attr('href',checkout_link);
 		
-	})
-	
-	
-	
-	$('.credits_or_plan').click(function(){
-		
-		if( $(this).text().indexOf('Credits') >= 0){
-			
-			$(location).attr('href','http://www.stampready.net/dashboard/credits/index.php');
-			
-		}
-		
-		else if( $(this).text().indexOf('LOGIN') >= 0){
-		
-			$(location).attr('href','http://www.stampready.net/index.php?action=login');
-		
-		}
-		
-		else {
-			
-			
-			
-		}
-
-		
 	});
+	
 
 	//if demo
 	demo = $(location).attr('href');

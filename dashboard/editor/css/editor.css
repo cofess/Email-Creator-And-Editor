@@ -212,7 +212,7 @@ input[type=range]::-moz-focus-outer {
 	#change_image_wrapper { height: 45px; position: relative; }
 	#change_image { color: #FFF; font-size: 14px; cursor: pointer;}
 	#change_image_button { background-color: transparent; width: 205px; height: 45px; background-repeat: no-repeat; background-position: center center; cursor: pointer; float: left; margin: 0 5px 0 20px; border: 0px;}
-	#change_image p { float: left; padding: 20px 0 0 0; margin-top: -5px;}
+	#change_image p { float: left; padding: 20px 0 0 10px!important; margin-top: -5px!important;}
 	#change_image p span { color: rgba(255,255,255,0.5); }
 	#change_image_link { position: absolute; right: 40px; background-color: transparent; top: -1px; background-image: url(../img/icons/link.png); width: 35px; height: 45px; background-repeat: no-repeat; background-position: center center; cursor: pointer; border: 0px;}
 	#remove_image { position: absolute; right: 10px; background-color: transparent; top: -1px; cursor: pointer; border: 0px; background-image: url(../img/icons/remove_image.png); background-repeat: no-repeat; background-position: center center; width: 35px; height: 45px;}
