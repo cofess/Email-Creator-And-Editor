@@ -1,0 +1,99 @@
+/*** Custom Font ***/
+@font-face {
+font-family: 'source_sans_proitalic';
+src: url('../../../css/Fonts/sourcesanspro-italic-webfont.eot');
+src: url('../../../css/Fonts/sourcesanspro-italic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../../../css/Fonts/sourcesanspro-italic-webfont.woff2') format('woff2'),
+     url('../../../css/Fonts/sourcesanspro-italic-webfont.woff') format('woff'),
+     url('../../../css/Fonts/sourcesanspro-italic-webfont.ttf') format('truetype'),
+     url('../../../css/Fonts/sourcesanspro-italic-webfont.svg#source_sans_proitalic') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'source_sans_problack';
+src: url('../../../css/Fonts/sourcesanspro-black-webfont.eot');
+src: url('../../../css/Fonts/sourcesanspro-black-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../../../css/Fonts/sourcesanspro-black-webfont.woff2') format('woff2'),
+     url('../../../css/Fonts/sourcesanspro-black-webfont.woff') format('woff'),
+     url('../../../css/Fonts/sourcesanspro-black-webfont.ttf') format('truetype'),
+     url('../../../css/Fonts/sourcesanspro-black-webfont.svg#source_sans_problack') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'source_sans_prolight';
+src: url('../../../css/Fonts/sourcesanspro-light-webfont.eot');
+src: url('../../../css/Fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../../../css/Fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+     url('../../../css/Fonts/sourcesanspro-light-webfont.woff') format('woff'),
+     url('../../../css/Fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+     url('../../../css/Fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'source_sans_proregular';
+src: url('../../../css/Fonts/sourcesanspro-regular-webfont.eot');
+src: url('../../../css/Fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../../../css/Fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+     url('../../../css/Fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+     url('../../../css/Fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+     url('../../../css/Fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'source_sans_probold';
+src: url('../../../css/Fonts/sourcesanspro-bold-webfont.eot');
+src: url('../../../css/Fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../../../css/Fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+     url('../../../css/Fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+     url('../../../css/Fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+     url('../../../css/Fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'source_sans_prosemibold';
+src: url('../../../css/Fonts/sourcesanspro-semibold-webfont.eot');
+src: url('../../../css/Fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../../../css/Fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+     url('../../../css/Fonts/sourcesanspro-semibold-webfont.woff') format('woff'),
+     url('../../../css/Fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'),
+     url('../../../css/Fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+
+/*** Reset ***/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+
+html { width: 100%; }
+body { width: 100%; font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; transform: translate3d(0, 0, 0); }
+
+/*** global styles ***/
+.mainColor { color: #b4b77c!important; }
+.light { font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; }
+.semi_bold { font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; }
+.regular { font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; }
+.disable_selection {  -webkit-user-select: none; -moz-user-select: none; }
+#sidebar a, .notificationDemoLink { text-decoration: none; }
+.hidden { display: none; }
+
+#frame *:focus { outline: none; }
+
+.clear-fix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clear-fix { zoom: 1; }
