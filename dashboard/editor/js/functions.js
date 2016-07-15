@@ -868,7 +868,8 @@ function generateThumbs(){
 		
 		}
 		
-		else if (the_thumb.indexOf('http') !== -1) { $('#modules_widgets [data-id="'+the_module+'"]').append('<img src="'+the_thumb+'">'); }
+		//else if (the_thumb.indexOf('http') !== -1) { $('#modules_widgets [data-id="'+the_module+'"]').append('<img src="'+the_thumb+'">'); }
+		else { $('#modules_widgets [data-id="'+the_module+'"]').append('<img src="'+the_thumb+'">'); }
 		
 		
 		$('#modules_widgets img').error(function(){
